@@ -1,4 +1,4 @@
-import { getBrayCurtis } from "./BrayCurtis";
-import { createMatrix, buildTree } from "./tree";
+import { getBrayCurtis } from "./BrayCurtis.js";
+import { createMatrix, buildTree } from "./tree.js";
 
-module.exports = { getBrayCurtis, createMatrix, buildTree };
+export { getBrayCurtis, createMatrix, buildTree };
